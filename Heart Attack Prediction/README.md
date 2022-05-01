@@ -20,28 +20,42 @@ ExerciseAngina: exercise-induced angina [Y: Yes, N: No]
 Oldpeak: oldpeak = ST [Numeric value measured in depression]
 ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 
-# What I have done
+# What I have done:
+Analyzed the data, searched for missing values and find categorical and numerical variable.
+Performed Exploratory Data Analysis, wherein, I plotted count plots for categorical data and bar plots and distribution plot for continuous data with respect to values of Heart Disease (0 or 1). Apart from that, a correlation heatmap was also plotted.
+Encoded categorical data .
+Split the dataset into Train and Test data.
+Trained model with the following algorithms:
+Logistic Regression
+Naive Bayes Classifier
+Support Vector Classifier
+KNN Classifier
+Decision Tree Classifier
+Random Forest Classifier
+XGBoost Classifier
+Evaluated the accuracies of models and stored them in a dataframe.
+Also evaluated the performance of the model with highest accuracy using confusion matrix and classification report.
 
 # Model Used
--> Support Vector Machine
--> Decision Tree Classification
-->Random Forest Classification
--> k nearest Neighbourhood
--> XG boost
--> Naive Baise
+-> Support Vector Machine.
+-> Decision Tree Classification.
+->Random Forest Classification.
+-> k nearest Neighbourhood.
+-> XG boost.
+-> Naive Baise.
 # Required Libraries
-Numpy
-Pandas
-Matplotlib
-Seaborn
-Scikit-learn
+Numpy,
+Pandas,
+Matplotlib,
+Seaborn,
+Scikit-learn,
 # Accuracies
 
-   Model	               Score
-1	Decision Tree	         80.43
-5	XG Boost	             79.89
-2	K-Nearest Neighbors	   78.80
-3	Random Forest	         77.72
-4	Naive Baise	           77.72
-6	Logistic regression	   77.72
-0	Support Vector Machine 76.09
+   Model	                  Score
+	Decision Tree	         80.43,
+	XG Boost	               79.89,
+	K-Nearest Neighbors	   78.80, 
+	Random Forest	         77.72,
+	Naive Baise	            77.72,
+	Logistic regression	   77.72,
+	Support Vector Machine  76.09,
